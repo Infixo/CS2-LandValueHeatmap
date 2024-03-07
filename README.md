@@ -31,4 +31,4 @@ Makes Land Value heatmap more informative.
 
 ### Support
 - Please report bugs and issues on [GitHub](https://github.com/Infixo/CS2-LandValueHeatmap).
-- You may also leave comments on [Discord1](https://discord.com/channels/1169011184557637825/1198627819475976263) or [Discord2](https://discord.com/channels/1024242828114673724/1185672922212347944).
+- You may also leave comments on [Discord1](https://discord.com/channels/1169011184557637825/1215324720866656386) or [Discord2](https://discord.com/channels/1024242828114673724/1215324529455407154).
