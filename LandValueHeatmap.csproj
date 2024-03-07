@@ -9,9 +9,9 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.1</TargetFramework>
-		<AssemblyName>LandValueHeatMap</AssemblyName>
-		<RootNamespace>LandValueHeatMap</RootNamespace>
-		<Description>Changes LandValue HeatMap to show 5x bigger range of values.</Description>
+		<AssemblyName>LandValueHeatmap</AssemblyName>
+		<RootNamespace>LandValueHeatmap</RootNamespace>
+		<Description>LandValue Heatmap shows bigger range of values.</Description>
 		<Version>1.0.0</Version>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<LangVersion>latest</LangVersion>

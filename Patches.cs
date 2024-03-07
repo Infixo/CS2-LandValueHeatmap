@@ -10,7 +10,7 @@ using Game.Rendering;
 using Game.Simulation;
 using HarmonyLib;
 
-namespace LandValueHeatMap;
+namespace LandValueHeatmap;
 
 [HarmonyPatch]
 class Patches
@@ -47,7 +47,7 @@ class Patches
     [HarmonyPostfix]
     public static void Initialize_Postfix(UpdateSystem updateSystem)
     {
-        updateSystem.UpdateAt<LandValueHeatMap.OverlayInfomodeSystem>(SystemUpdatePhase.PreCulling);
+        updateSystem.UpdateAt<LandValueHeatmap.OverlayInfomodeSystem>(SystemUpdatePhase.PreCulling);
     }
 
     /*
@@ -135,7 +135,7 @@ class Patches
     [HarmonyPostfix]
     static void TerrainRenderSystem_OnCreate(TerrainRenderSystem __instance, ref OverlayInfomodeSystem ___m_OverlayInfomodeSystem)
     {
-        ___m_OverlayInfomodeSystem = __instance.World.GetOrCreateSystemManaged<LandValueHeatMap.OverlayInfomodeSystem>();
+        ___m_OverlayInfomodeSystem = __instance.World.GetOrCreateSystemManaged<LandValueHeatmap.OverlayInfomodeSystem>();
     }
 
 }

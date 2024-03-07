@@ -16,7 +16,7 @@ using UnityEngine.Scripting;
 using Game;
 using Game.Rendering;
 
-namespace LandValueHeatMap;
+namespace LandValueHeatmap;
 
 [CompilerGenerated]
 public class OverlayInfomodeSystem : GameSystemBase
@@ -835,10 +835,10 @@ public class OverlayInfomodeSystem : GameSystemBase
                     }
                     case HeatmapData.LandValue:
                     {
-                        LandValueHeatMap.LandValueJob landValueJob = default(LandValueHeatMap.LandValueJob); // modded
+                        LandValueHeatmap.LandValueJob landValueJob = default(LandValueHeatmap.LandValueJob); // modded
                         landValueJob.m_ActiveData = activeData;
                         landValueJob.m_MapData = m_LandValueToGridSystem.GetData(readOnly: true, out var dependencies7);
-                        LandValueHeatMap.LandValueJob jobData7 = landValueJob; // modded
+                        LandValueHeatmap.LandValueJob jobData7 = landValueJob; // modded
                         jobData7.m_TextureData = GetTerrainTextureData(jobData7.m_MapData);
                         JobHandle jobHandle7 = IJobExtensions.Schedule(jobData7, JobHandle.CombineDependencies(dependencies7, base.Dependency));
                         m_LandValueToGridSystem.AddReader(jobHandle7);
