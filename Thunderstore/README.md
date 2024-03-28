@@ -1,4 +1,7 @@
-# Land Value Heatmap
+# [DEPRECATED] Land Value Heatmap
+
+**DO NOT USE**. Due to Land Value overhaul introduced in v1.1 of the game, this mod is no longer valid.
+
 Makes Land Value heatmap more informative.
  - Land and Buildings use the same color scale so it is easy to spot differences that would influence LV i.e. buildings darker than land will drive your LV up.
  - Increased range of values so the heatmap does not saturate easy in bigger cities, where you usually end up with green buildings and blue land everywhere.
@@ -26,6 +29,8 @@ Makes Land Value heatmap more informative.
 - Nothing atm.
 
 ### Changelog
+- v1.0.1 (2024-03-25)
+  - Deprecated.
 - v1.0.0 (2024-03-07)
   - Initial build.
 
